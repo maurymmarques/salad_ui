@@ -17,7 +17,7 @@ defmodule SaladUI.Textarea do
   attr :name, :string, default: nil
   attr :value, :string
   attr :class, :any, default: nil
-  attr :rest, :global, include: ~w(disabled form)
+  attr :rest, :global, include: ~w(disabled form placeholder rows cols maxlength minlength readonly required autocomplete autofocus)
 
   def textarea(assigns) do
     ~H"""
