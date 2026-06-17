@@ -47,7 +47,6 @@ defmodule SaladUI.Pagination do
         ])
       }
       {@rest}
-      }
     >
       {render_slot(@inner_block)}
     </nav>
@@ -71,7 +70,6 @@ defmodule SaladUI.Pagination do
         ])
       }
       {@rest}
-      }
     >
       {render_slot(@inner_block)}
     </ul>

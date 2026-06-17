@@ -39,7 +39,6 @@ defmodule SaladUI.Breadcrumb do
         ])
       }
       {@rest}
-      }
     >
       {render_slot(@inner_block)}
     </nav>
@@ -63,7 +62,6 @@ defmodule SaladUI.Breadcrumb do
         ])
       }
       {@rest}
-      }
     >
       {render_slot(@inner_block)}
     </ol>

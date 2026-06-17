@@ -1,3 +1,8 @@
+# 0.14.10
+
+**Bug fixes**
+- Fix stray `}` in HEEx templates of `Pagination` and `Breadcrumb` components that caused `Phoenix.LiveView.TagEngine.Tokenizer.ParseError` with `phoenix_live_view >= 1.2.0`
+
 # 0.14.0
 
 **Changes**
